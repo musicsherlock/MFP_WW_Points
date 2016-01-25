@@ -58,7 +58,7 @@ points = (protein / 10.94) + (carbs / 9.17) + (fat1/3.89)- (fiber1 / 12.49);
 //alert(points);
 if (precisonWW)
 {
-points=Math.round(points)
+points=Math.round(points);
 }
 else
 {
@@ -90,7 +90,7 @@ table1.find('tr').each(function()
 rowInd++;
 var index=0;
 found=false;
-if ($(this).hasClass('meal_header') && rowInd==0)
+if ($(this).hasClass('meal_header') && rowInd===0)
 $(this).append('<td class="alt">Weight Watcher Points+</td>');
 if (!totalFound && $(this).hasClass('total'))
 {
