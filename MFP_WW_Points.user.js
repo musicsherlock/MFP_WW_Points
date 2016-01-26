@@ -8,7 +8,6 @@
 // @include https://www.myfitnesspal.com/food/diary/*
 // ==/UserScript==
 
-
 var pointsPlus=true;
 var precisonWW=true;
 
@@ -159,8 +158,5 @@ document.body.removeChild(ifr);
 
 google.load( "visualization", "1", {packages:["corechart"],"callback":main} );
 }
-
-
-
 startRun();
 })();
