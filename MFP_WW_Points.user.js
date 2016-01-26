@@ -8,7 +8,11 @@
 // ==/UserScript==
 // Originally from: http://userscripts-mirror.org/scripts/show/122949
     
-var usePointCalculation ="SmartPoints"; //Change to true to original, PointsPlus or SmartPoints to change calculation formula 
+var usePointCalculation ="SmartPoints"; //Change to true to: 
+                                        //                  original
+                                        //                  PointsPlus
+                                        //                  SmartPoints
+                                        // to change calculation formula 
     var precisonWW = false;             //Change to true for true fractional point values (instead of just .25, .50, and .75)
 var totalPoints = 0;
 /*
