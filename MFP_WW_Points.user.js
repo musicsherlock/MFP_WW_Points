@@ -52,9 +52,7 @@ function getPointOld(calories, fat, fiber, carbs, protein, sugar)
          if (fiber > 4 ) {
              fiber = 4;
          }
-         points = calories / 50;
-         points += fat / 12;
-         points -= fiber / 5;
+         points = (calories / 50) + (fat / 12) - (fiber / 5);
          break;
         case "PointsPlus":
          points = (protein / 10.94) + (carbs / 9.17) + (fat / 3.89) - (fiber / 12.49);
