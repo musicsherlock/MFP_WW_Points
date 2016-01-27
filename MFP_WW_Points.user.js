@@ -11,7 +11,7 @@
 var usePointCalculation ="SmartPoints"; //Change to true to: 
                                         //                  original
                                         //                  PointsPlus
-                                        //                  SmartPoints
+                                        //                  SmartPoints !make sure "Saturated Fat" ist listet in your MFP diary!
                                         // to change calculation formula 
     var precisonWW = false;             //Change to true for true fractional point values (instead of just .25, .50, and .75)
 var totalPoints = 0;
