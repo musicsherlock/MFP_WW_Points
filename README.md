@@ -1,5 +1,5 @@
 # MFP_WW_Points
-WeightWatchers points calculation inside MyFitnessPal
+WW points calculation inside MyFitnessPal
 
 Updated version of user scripts found on the MFP forums
 
